@@ -2,7 +2,7 @@ public class Main{
     public static void main(String[]args){
         Pedir_datos pd= new Pedir_datos();
 
-        Alumno a = new Alumno();
+        
         String nombre = pd.pedircadna("Nombre del alumno");
         int matricula = pd.pedirEntero("Matricula");
         double calificacion1= pd.pedirDecimal("Calificacion 1",0,10);
