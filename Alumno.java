@@ -18,6 +18,7 @@ public class Alumno{
         this.promedio = (calificacion1 + calificacion2 + calificacion3) /3;
     }
     public void mostrarAlumno(){
+        calcularPromedio();
         System.out.println("Alumno"+ nombre);
         System.out.println("Matricula"+ matricula );
         System.out.println("Promedio"+ promedio );
