@@ -4,6 +4,7 @@ public class Alumno{
     double calificacion1;
     double calificacion2;
     double calificacion3;
+    double promedio;
 
     public Alumno(String nombre,int matricula,double calificacion1,double calificacion2,double calificacion3){
     this.nombre = nombre;
@@ -14,9 +15,14 @@ public class Alumno{
 
     }
     public void calcularPromedio(){
-        double promedio = (calificacion1 + calificacion2 + calificacion3) /3;
+        this.promedio = (calificacion1 + calificacion2 + calificacion3) /3;
     }
-    public void mostrarAlumno()
+    public void mostrarAlumno(){
+        System.out.println("Alumno"+ nombre);
+        System.out.println("Matricula"+ matricula );
+        System.out.println("Promedio"+ promedio );
+        
+    }
 
     
 
