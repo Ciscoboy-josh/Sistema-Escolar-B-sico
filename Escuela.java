@@ -4,7 +4,10 @@ public class Escuela{
     //Constructor
     public Escuela(Alumno alumno){
         this.alumno = alumno;
+
     }
 
-    
+    public void mostrarAlumno(){
+        alumno.mostrarAlumno();
+    }
 }
